@@ -1,0 +1,97 @@
+body {
+	background-color: rgb(230, 230, 230);
+color: rgb(40, 40, 40);
+font-family: 'PT Serif', serif;
+
+}
+
+
+h1 { font-family: Helvetica;   
+	 color: #4E8098;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    letter-spacing: 1px;
+    font-size: 40px;}
+
+a { text-decoration: none; 
+color: #4E8098;
+font-weight: bold;
+font-family: helvetica;}
+
+h2 { color: rgb(150, 150,150);
+    font-weight: 400;
+    text-decoration:none ;
+     font-family: 'Roboto', sans-serif;
+ }
+
+a:hover { color: rgb(50, 50, 120); }    
+
+#marin {
+	width: 100px; box-shadow: 0px 0px 6px #4E8098;  }
+
+.img-circle { border-radius: 50%; }
+
+
+
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media ( max-width: 300px) {
+
+	.container { 
+	width: 200px; }
+}
+
+@media ( max-width: 760px) {
+	.container { width: 600px; }
+}
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
+	border-radius: 5px;
+	margin-bottom: 5px;
+	text-align: center;
+}
+
+.button-blue {
+	background-color: #4E8098;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 5px;
+}
+
+.button-blue:hover {
+	color : white;
+	background-color: rgb(50, 50, 120) ;
+}
+
+.list-horizontal {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-horizontal li {
+	display: inline;
+	padding: 10px ;
+}
+
+.twitter-bleu {
+	background-color: skyblue;
+	border-radius: 20%;
+	padding : 3px;
+
+}
+
+.insta-rose {
+	background-color: lightpink;
+	border-radius: 20%;
+	padding: 3px;
+	padding-left: 3px;
+}
+
+#introduction p { margin-bottom: 40px; }
